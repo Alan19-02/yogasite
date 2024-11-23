@@ -1,0 +1,24 @@
+/* src/app/components/footer.module.css */
+
+.footer {
+  background-color: #f8f9fa; /* Light gray for subtle contrast */
+  color: #333;
+  padding: 2rem 0;
+  text-align: center;
+  border-top: 2px solid #ddd;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
+
+.footer p {
+  font-size: 0.875rem;
+  margin: 0.5rem 0;
+}

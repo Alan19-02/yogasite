@@ -1,0 +1,50 @@
+/* src/app/components/heroSection.module.css */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+}
+
+.heroContent {
+  max-width: 50%;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.heroContent .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.heroContent .btn:hover {
+  background-color: #0056b3;
+}
+
+.heroImage {
+  max-width: 40%;
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}

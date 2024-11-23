@@ -1,0 +1,128 @@
+/* General Hero Section */
+.hero {
+  background-color: #f9f9f9;
+  padding: 3rem 0;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  z-index: -1;
+  margin-top: 0.75rem;
+}
+
+/* Key Features Section */
+.row > .col-md-4 {
+  margin-bottom: 2rem;
+}
+
+.col-md-4 img {
+  border: 2px solid #007bff;
+  padding: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.col-md-4 img:hover {
+  transform: scale(1.1);
+}
+
+.col-md-4 h5 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #333;
+}
+
+.col-md-4 p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Featured Products Section */
+.card {
+  border: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card .btn-outline-primary {
+  border: 2px solid #007bff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.card .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Testimonials Section */
+.blockquote {
+  font-size: 1.25rem;
+  color: #444;
+}
+
+.blockquote-footer {
+  font-size: 1rem;
+  color: #777;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+/* Newsletter Section */
+.newsletterForm {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletterInput {
+  border: 2px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  flex: 1;
+  margin-right: 0.5rem;
+}
+
+.newsletterButton {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.newsletterButton:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
